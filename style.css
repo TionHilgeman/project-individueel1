@@ -1,0 +1,233 @@
+.neuton-extralight {
+    font-family: "Neuton", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .neuton-light {
+    font-family: "Neuton", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .neuton-regular {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .neuton-bold {
+    font-family: "Neuton", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .neuton-extrabold {
+    font-family: "Neuton", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .neuton-regular-italic {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .alegreya-sans-sc-extrabold {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+body{
+    background-color: #d9d0bf;
+    width:375px;
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+    
+    Header{
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        gap: 3em;
+        padding-bottom: 0.5em;
+        height: 30px;
+        
+    }
+
+    nav ul{
+    
+
+        display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        gap: 1em;
+       
+        li {
+
+            list-style-type: none;
+        }
+        .line-one{
+            text-decoration-line:underline;
+        }
+        .line-two{
+            text-decoration-line:underline;
+        }
+        .line-three{
+            text-decoration-line:underline;
+        }
+        a{
+            background-color: #bf8c2d;
+            border-radius:20px;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        padding: 3px 5px;
+    }
+       
+    }
+    section{
+        img{
+        display:flex;
+        margin-top:1em;
+        margin-right:auto;
+        margin-left:auto;
+        }
+    }
+    
+h1{
+    display:flex;
+    justify-content: center;
+    margin-top:4em;
+    color:black;
+    font-size: 24px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #d9d0bf;
+    
+}
+h2{
+    display:flex;
+    justify-content: center;
+    color:#d9d0bf;
+    font-size: 24px
+}
+h3{
+    margin-top:4em;
+    display:flex;
+    justify-content: center;
+    font-size:24px;
+    color:#bf8c2d;
+
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+    a{
+    color:black;
+}
+
+    .hands{
+    margin-top :4em;
+}
+p{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1em;
+    padding: 0em 0px;
+    font-size: 1em;
+    width:70%;
+    color:#595845;
+    
+}
+    .home{
+    background-image: url(img/achtergrond1-0.png);
+    background-size: 375px 982px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:375px;
+    height:982px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin:0px 0px;
+}
+    .producten{
+    background-image: url(img/achtergrond-producten.png);
+    background-size: 375px 1178px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:375px;
+    height:1178px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin:0px 0px;
+}
+    .review{
+    background-image: url(img/achtergrond-review-twee.png);
+    background-size: 375px 1300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:375px;
+    height:1300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin:0px 0px;
+}
+
+    .producten-h1{
+        margin-top: 0em;
+    }
+    .Shirts-Vesten h3{
+        margin-top: 0.1em;
+    }
+    .Laarzen h3{
+        margin-top:2.2em;
+    }
+    .Brillen h3{
+        color:#595845;
+        margin-top: 2.3em
+}
+
+    .conclussie{
+    margin-top:6em;
+}
+    .sweer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-top:5em;
+}
+
+
+
+    .footer-review ul{
+    margin-top:7em;
+}
+    .footer-producten ul{
+        margin-top:3em;
+    }
+    footer ul{
+    margin-top: 6em;
+    display:flex;
+    align-items: center;
+    
+    flex-direction:column;
+    list-style-type: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
